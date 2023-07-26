@@ -79,6 +79,11 @@
       let max = -Infinity;
       let min = Infinity;
 
+      for(let num of arr){
+        if(num<min) min=num;
+        if(num>max) max=num;
+      }
+      return[min,max];
       // 함수를 구현하세요!
 
       
